@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
-import { Martian_Mono } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import './globals.css'
 
-import Navbar from '@/components/navbar'
+import Navbar from '@/components/Navbar'
 
-const martianMono = Martian_Mono({ subsets: ['cyrillic-ext', 'latin'] })
+const inter = Inter({ subsets: ['cyrillic-ext', 'latin'] })
 
 export const metadata: Metadata = {
   title: 'Upperfile',
@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={martianMono.className}>
+      <body className={inter.className}>
         <Navbar />
         {children}
       </body>
