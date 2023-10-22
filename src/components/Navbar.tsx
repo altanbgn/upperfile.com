@@ -13,11 +13,11 @@ export default function Navbar() {
       <Container className='h-28'>
         <Link
           href='/'
-          className={`text-3xl text-red-400 font-bold ${BungeeShade.className}`}
+          className={`text-base lg:text-3xl text-red-400 font-bold ${BungeeShade.className}`}
         >
           Upperfile
         </Link>
-        <div className='flex justify-end items-center gap-10'>
+        <div className='hidden lg:flex justify-end items-center gap-10'>
           <Link href='/docs'>
             Docs
           </Link>
