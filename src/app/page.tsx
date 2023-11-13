@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <Container className='h-[calc(100vh-7rem)] flex-col justify-center items-center'>
-        <p className='text-2xl lg:text-6xl text-center uppercase font-black mb-4'>
+        <p className='text-2xl lg:text-6xl text-center uppercase font-black mb-8'>
           Control and manage your data<br />on a server you own
         </p>
         <p className='text-base lg:text-xl text-center text-neutral-400 mb-12'>
@@ -20,7 +20,7 @@ export default function Home() {
         <div
           className='absolute -z-20 w-full h-screen top-0 left-0'
           style={{
-            backgroundImage: 'radial-gradient(#222222 2px, transparent 0px)',
+            backgroundImage: 'radial-gradient(#333333 2px, transparent 0px)',
             backgroundSize: '36px 36px',
             backgroundPosition: '0 0',
             backgroundRepeat: 'repeat',
@@ -34,7 +34,7 @@ export default function Home() {
 
       </Container>
       <Container>
-        <p>pog</p>
+        <p>Home</p>
       </Container>
     </main>
   )

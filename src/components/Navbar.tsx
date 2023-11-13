@@ -25,7 +25,7 @@ export default function Navbar() {
             Blogs
           </Link>
           <p className='text-neutral-600'>|</p>
-          <Link href='https://github.com/altanbgn/upperfile.com/'>
+          <Link href='https://github.com/altanbgn/upperfile.com'>
             <Image
               className='invert'
               src='/github.svg'
@@ -35,7 +35,7 @@ export default function Navbar() {
               priority
             />
           </Link>
-          <Link href='https://discord.com/'>
+          <Link href='https://discord.com'>
             <Image
               className='invert'
               src='/discord.svg'
